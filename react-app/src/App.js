@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import QuoteList from './components/QuoteList';
+
 function App() {
   return (
     <div className="App">
-      hello!
+      <QuoteList />
     </div>
   );
 }
